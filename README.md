@@ -26,3 +26,5 @@ Compilation:
     to compile: enter in the terminal  'make'
     to run the program: enter in the terminal './a5'
 
+    This is from the course Comp 2404 from Carleton University
+
