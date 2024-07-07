@@ -1,30 +1,23 @@
-Name:Bereket Ashebir Alemu
-Student number: 101282366
+# FarmData Application
 
+This project implements a data management system for farm statistics, focusing on reading, sorting, and displaying data from a tab-separated text file.
 
-List of files:
-    FarmData.cc
-    FarmData.h
-    View.cc
-    View.h
-    Control.h
-    Control.cc
-    farmdata/farmdata.txt
-    Farm.h
-    Farm.cc
-    Makefile
-    README.md
-    main.cc
+## Setup
+Ensure you have a C++ compiler installed on your system.
 
-Description:
-    -Program that reads from test file
-    -User can filter the provinces wanted and view data
-    -Can sort by animal name, number of farms, number of animals
+## Compilation
+Navigate to the root directory of the project and run the following command:
+```sh
+make a5
+```
 
+## Execution
+To run the application, execute the following command:
 
-Compilation:
-    to compile: enter in the terminal  'make'
-    to run the program: enter in the terminal './a5'
+```sh
+./a5
+```
 
-    This is from the course Comp 2404 from Carleton University
+## Features
+**FarmData Class:** Manages farm data read from farmdata/farmdata.txt. Provides methods to print all data, filter by province, and sort data by various criteria.
 
